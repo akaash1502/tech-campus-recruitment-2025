@@ -9,7 +9,7 @@ if (process.argv.length < 3) {
 
 const date = process.argv[2]; 
 const logFilePath = "logs_2024.log";  // Assuming the log file is named logs.log
-const outputDir = "output";
+const outputDir = path.join(__dirname, "..", "output"); 
 const outputFile = path.join(outputDir, `output_${date}.txt`);
 
 // Ensure output directory exists
