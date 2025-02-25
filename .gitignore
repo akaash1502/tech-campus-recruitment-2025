@@ -1,0 +1,6 @@
+# Ignore log files
+logs_2024.log
+logs_*.log
+
+# Ignore output files
+output/output_*.txt
