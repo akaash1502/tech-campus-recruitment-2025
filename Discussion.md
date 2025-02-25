@@ -53,22 +53,6 @@ node extract_logs.js 2024-12-01
 
 ---
 
-### **C++ Implementation**
-#### **Requirements:**
-- Ensure `logs.log` exists in the same directory.
-- Compile the C++ script:
-```sh
-g++ extract_logs.cpp -o extract_logs
-```
-
-#### **Run the program:**
-```sh
-./extract_logs 2024-12-01
-```
-- Extracted logs will be saved in `output/output_2024-12-01.txt`.
-
----
-
 ## Performance Considerations
 - **Streaming avoids high memory usage.**
 - **Line-by-line filtering ensures efficient log extraction.**
